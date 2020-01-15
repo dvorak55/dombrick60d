@@ -1376,7 +1376,7 @@ Connection ~ 9300 3600
 Wire Wire Line
 	9300 3600 9750 3600
 Wire Wire Line
-	8675 3200 8675 3925
+	8675 3200 8575 3825
 Wire Wire Line
 	8400 3400 8475 3400
 Connection ~ 8850 3600
@@ -2115,8 +2115,8 @@ Pos 6900 4650
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 AC 00 00 00 BB 08 02 00 00 00 B6 0E 3D 
-6C 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0B 12 00 00 0B 12 
-01 D2 DD 7E FC 00 00 20 00 49 44 41 54 78 9C ED 9D 3F 7C 1A C9 15 C7 67 51 CA 58 0B E9 4F 80 7B 
+6C 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
+01 42 AC 34 98 00 00 20 00 49 44 41 54 78 9C ED 9D 3F 7C 1A C9 15 C7 67 51 CA 58 0B E9 4F 80 7B 
 F3 C7 9F B4 16 8B D2 0B AC 4B 1B 49 F8 EA 33 C8 57 5B 20 5F 9B 48 C8 A9 83 B0 9D 2E 9F 08 64 7F 
 52 5A AC E4 94 39 81 7C 2E 73 06 E4 DE FC 71 CA 13 93 E2 99 F1 63 76 C1 48 62 97 85 7D DF 42 9F 
 D5 B2 7F 66 67 77 7E FB 66 DE 9B B7 0A E7 9C 11 04 41 B8 15 CF B4 0B 40 10 04 31 4D 48 04 09 82 
@@ -2447,7 +2447,7 @@ F 1 "MX-NoLED" H 6283 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 5625 3950 60  0001 C CNN
 F 3 "" H 5625 3950 60  0001 C CNN
 	1    6250 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2463,7 +2463,7 @@ F 3 "~" V 6125 4225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6125 4125 6200 4125
+	6125 4125 6100 4025
 Text Notes 6225 4275 0    50   ~ 0
 M5
 $Comp
@@ -2491,19 +2491,6 @@ F 2 "Diode_SMD:D_SOD-123" V 8850 4225 50  0001 C CNN
 F 3 "~" V 8850 4225 50  0001 C CNN
 	1    8850 4225
 	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E9D839C
-P 9425 3975
-AR Path="/5E22FDCD/5E9D839C" Ref="MX?"  Part="1" 
-AR Path="/5E9D839C" Ref="MX61"  Part="1" 
-F 0 "MX61" H 9458 4198 60  0000 C CNN
-F 1 "MX-NoLED" H 9458 4124 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8800 3950 60  0001 C CNN
-F 3 "" H 8800 3950 60  0001 C CNN
-	1    9425 3975
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2587,7 +2574,7 @@ Wire Wire Line
 Text Notes 10225 4225 0    50   ~ 0
 →
 Wire Wire Line
-	8850 4125 8925 4125
+	8850 4125 8825 4025
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E9D83E3
@@ -2599,7 +2586,7 @@ F 1 "MX-NoLED" H 9008 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 8350 3950 60  0001 C CNN
 F 3 "" H 8350 3950 60  0001 C CNN
 	1    8975 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
@@ -2612,10 +2599,10 @@ F 1 "MX-NoLED" H 8558 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 7900 3950 60  0001 C CNN
 F 3 "" H 7900 3950 60  0001 C CNN
 	1    8525 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8400 4125 8475 4125
+	8400 4125 8375 4025
 Text Notes 5800 4300 0    50   ~ 0
 M4
 $Comp
@@ -2629,7 +2616,7 @@ F 1 "MX-NoLED" H 4283 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 3625 3950 60  0001 C CNN
 F 3 "" H 3625 3950 60  0001 C CNN
 	1    4250 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2645,7 +2632,7 @@ F 3 "~" V 4125 4225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4125 4125 4200 4125
+	4125 4125 4100 4025
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E9D8417
@@ -2657,7 +2644,7 @@ F 1 "MX-NoLED" H 4808 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 4150 3950 60  0001 C CNN
 F 3 "" H 4150 3950 60  0001 C CNN
 	1    4775 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2673,7 +2660,7 @@ F 3 "~" V 4650 4225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4650 4125 4725 4125
+	4650 4125 4625 4025
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E9D842C
@@ -2685,7 +2672,7 @@ F 1 "MX-NoLED" H 5333 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 4675 3950 60  0001 C CNN
 F 3 "" H 4675 3950 60  0001 C CNN
 	1    5300 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2701,7 +2688,7 @@ F 3 "~" V 5175 4225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5175 4125 5250 4125
+	5175 4125 5150 4025
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E9D8441
@@ -2713,7 +2700,7 @@ F 1 "MX-NoLED" H 5833 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 5175 3950 60  0001 C CNN
 F 3 "" H 5175 3950 60  0001 C CNN
 	1    5800 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2729,7 +2716,7 @@ F 3 "~" V 5675 4225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5675 4125 5750 4125
+	5675 4125 5650 4025
 Text Notes 4200 4225 0    50   ~ 0
 M1
 Text Notes 5275 4250 0    50   ~ 0
@@ -2840,7 +2827,7 @@ F 1 "MX-NoLED" H 6783 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 6125 3950 60  0001 C CNN
 F 3 "" H 6125 3950 60  0001 C CNN
 	1    6750 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2856,7 +2843,7 @@ F 3 "~" V 6625 4225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6625 4125 6700 4125
+	6625 4125 6600 4025
 Text Notes 6725 4275 0    50   ~ 0
 M6
 Connection ~ 6625 4325
@@ -2873,7 +2860,7 @@ F 1 "MX-NoLED" H 7508 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 6850 3950 60  0001 C CNN
 F 3 "" H 6850 3950 60  0001 C CNN
 	1    7475 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2889,7 +2876,7 @@ F 3 "~" V 7350 4225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7350 4125 7425 4125
+	7350 4125 7325 4025
 Text Notes 7450 4275 0    50   ~ 0
 M7
 Connection ~ 7350 4325
@@ -2906,7 +2893,7 @@ F 1 "MX-NoLED" H 8058 4124 20  0000 C CNN
 F 2 "Kailh_Choc:KailhChoc-1U" H 7400 3950 60  0001 C CNN
 F 3 "" H 7400 3950 60  0001 C CNN
 	1    8025 3975
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D?
@@ -2922,23 +2909,23 @@ F 3 "~" V 7900 4225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7900 4125 7975 4125
+	7900 4125 7875 4025
 Text Notes 8000 4275 0    50   ~ 0
 M8
 Connection ~ 7900 4325
 Wire Wire Line
 	7900 4325 8400 4325
 Wire Wire Line
-	4400 3200 4400 3925
+	4400 3200 4300 3825
 Connection ~ 4400 3200
 Wire Wire Line
-	4925 3200 4925 3925
+	4925 3200 4825 3825
 Connection ~ 4925 3200
 Wire Wire Line
-	5450 3200 5450 3925
+	5450 3200 5350 3825
 Connection ~ 5450 3200
 Wire Wire Line
-	6900 3925 6900 2500
+	6800 3825 6900 2500
 Connection ~ 6900 2500
 Wire Wire Line
 	10575 1850 10575 1175
@@ -2948,17 +2935,12 @@ Wire Wire Line
 Wire Wire Line
 	11025 800  11025 1175
 Wire Wire Line
-	8175 3200 8175 3925
-Connection ~ 8175 3925
+	7525 3850 7525 3825
 Wire Wire Line
-	8175 3925 8175 4725
-Wire Wire Line
-	7650 3925 7625 3925
-Wire Wire Line
-	5950 3200 5950 3925
+	5950 3200 5850 3825
 Connection ~ 5950 3200
 Wire Wire Line
-	6400 3200 6400 3925
+	6400 3200 6300 3825
 Connection ~ 6400 3200
 Connection ~ 8175 3200
 Connection ~ 10575 1850
@@ -3196,11 +3178,11 @@ Text Notes 8000 2825 0    50   ~ 0
 B
 Connection ~ 7650 1850
 Wire Wire Line
-	7650 1850 7650 3925
+	7650 1850 7525 3850
 Text Notes 7300 2650 0    50   ~ 0
 xxxxx
 Wire Wire Line
-	9125 3200 9125 3925
+	9125 3200 9025 3825
 Connection ~ 9125 3200
 Wire Wire Line
 	9575 3200 9575 3925
@@ -3334,4 +3316,24 @@ Text GLabel 3800 5625 2    50   Input ~ 0
 ROW4
 Text GLabel 2100 4625 0    50   Input ~ 0
 RESET
+Wire Wire Line
+	8175 3200 8175 3825
+Wire Wire Line
+	8075 3825 8175 3825
+Connection ~ 8175 3825
+Wire Wire Line
+	8175 3825 8175 4725
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5E9D839C
+P 9425 3975
+AR Path="/5E22FDCD/5E9D839C" Ref="MX?"  Part="1" 
+AR Path="/5E9D839C" Ref="MX61"  Part="1" 
+F 0 "MX61" H 9458 4198 60  0000 C CNN
+F 1 "MX-NoLED" H 9458 4124 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8800 3950 60  0001 C CNN
+F 3 "" H 8800 3950 60  0001 C CNN
+	1    9425 3975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
