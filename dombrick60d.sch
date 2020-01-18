@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:dombrick60d-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -3268,27 +3269,21 @@ ROW4
 Wire Wire Line
 	4450 5300 4800 5300
 Text GLabel 3800 6125 2    50   Input ~ 0
-COL0
+COL11
 Text GLabel 3800 6225 2    50   Input ~ 0
-COL1
-Text GLabel 3800 6325 2    50   Input ~ 0
-COL2
+COL12
 Text GLabel 3800 6425 2    50   Input ~ 0
-COL3
-Text GLabel 3800 6525 2    50   Input ~ 0
-COL4
-Text GLabel 3800 6625 2    50   Input ~ 0
-COL5
+ROW3
 Text GLabel 3800 6725 2    50   Input ~ 0
-COL6
+COL8
 Text GLabel 3800 4625 2    50   Input ~ 0
 COL7
 Text GLabel 4450 4725 2    50   Input ~ 0
-COL8
+COL6
 Text GLabel 4450 4825 2    50   Input ~ 0
-COL9
+ROW2
 Text GLabel 4450 4925 2    50   Input ~ 0
-COL10
+COL5
 Wire Wire Line
 	4450 4725 4175 4725
 Connection ~ 4175 4725
@@ -3299,21 +3294,17 @@ Wire Wire Line
 	4450 4925 4375 4925
 Connection ~ 4375 4925
 Text GLabel 3800 5025 2    50   Input ~ 0
-COL11
+COL4
 Text GLabel 3800 5125 2    50   Input ~ 0
-COL12
+COL3
 Text GLabel 3800 5225 2    50   Input ~ 0
-COL13
-Text GLabel 3800 5325 2    50   Input ~ 0
-ROW0
-Text GLabel 3800 5925 2    50   Input ~ 0
-ROW1
+COL2
 Text GLabel 3800 5825 2    50   Input ~ 0
-ROW2
+ROW1
 Text GLabel 3800 5725 2    50   Input ~ 0
-ROW3
+ROW0
 Text GLabel 3800 5625 2    50   Input ~ 0
-ROW4
+COL13
 Text GLabel 2100 4625 0    50   Input ~ 0
 RESET
 Wire Wire Line
@@ -3336,4 +3327,14 @@ F 3 "" H 8800 3950 60  0001 C CNN
 	1    9425 3975
 	1    0    0    -1  
 $EndComp
+Text GLabel 3800 6325 2    50   Input ~ 0
+ROW4
+Text GLabel 3800 5325 2    50   Input ~ 0
+COL1
+Text GLabel 3800 5925 2    50   Input ~ 0
+COL0
+Text GLabel 3800 6525 2    50   Input ~ 0
+COL10
+Text GLabel 3800 6625 2    50   Input ~ 0
+COL9
 $EndSCHEMATC
