@@ -3203,31 +3203,6 @@ Wire Wire Line
 Connection ~ 7875 3400
 Text Notes 8100 5025 0    50   ~ 0
 Space\n6.25
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5F113CF0
-P 10875 4750
-AR Path="/5E22FDCD/5F113CF0" Ref="MX?"  Part="1" 
-AR Path="/5F113CF0" Ref="MX64"  Part="1" 
-F 0 "MX64" H 10908 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 10908 4899 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 10250 4725 60  0001 C CNN
-F 3 "" H 10250 4725 60  0001 C CNN
-	1    10875 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11025 1175 11025 4700
-Connection ~ 11025 1175
-Wire Wire Line
-	10825 4900 10650 4900
-Wire Wire Line
-	10650 4900 10650 1375
-Wire Wire Line
-	10650 1375 10750 1375
-Connection ~ 10750 1375
-Text Notes 10950 4975 0    50   ~ 0
-BS\n2U
 Text GLabel 4225 800  1    50   Input ~ 0
 COL0
 Text GLabel 4925 800  1    50   Input ~ 0
