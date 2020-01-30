@@ -12,7 +12,7 @@ Actually, "Dombri" means one of a japanese food style bowl, "ck" means nothing.
 以下、[DescriptionのPDF](https://github.com/dvorak55/dombrick60d/blob/master/description.pdf)から抜粋
 
 ## 概要
-Dombrick60DはDvorak配列志向の45%キーボードDombrick45にDellのノートパソコンで採用されていたカーソルキー/PGUP/PGDWを追加、かつマクロ用Chocキーを手前に配置した変態配列キーボードです。
+Dombrick60DはDvorak配列志向の45%キーボードDombrick45にDellのノートパソコンで採用されていたカーソルキー／PGUP／PGDWを追加、かつマクロ用Chocキーを手前に配置した変態配列キーボードです。
 
 ## 特徴
 - 横幅14.75U。相変わらずDvorak配列ユーザ志向のキーマップ
@@ -25,6 +25,7 @@ Dombrick60DはDvorak配列志向の45%キーボードDombrick45にDellのノー�
 
 ## キー配列
 ![keymap-of-dombrick60d](https://github.com/dvorak55/dombrick60d/blob/master/keylayout/dombrick60d-2-3.png)
+
 最下段のさらに下段（？）の10キーはChoc。Chocなのでスペースキーを押す時に干渉しない、はずなんです。
 
 ## Kitに入っている部品
