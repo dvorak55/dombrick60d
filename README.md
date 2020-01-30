@@ -1,5 +1,5 @@
 # dombrick60d : Dvorak Oriented 60% Keyboard dedicated to Dell
-![Logo](https://github.com/dvorak55/dombrick65d/blob/master/logo.png)
+![Logo](https://github.com/dvorak55/dombrick60d/blob/master/logo.png)
 Dombrick60D is self made dvorak oriented keyboard.  
 Dombrick60DはDvorak配列志向の自作キーボードです。
 
