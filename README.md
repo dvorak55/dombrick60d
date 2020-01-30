@@ -23,6 +23,10 @@ Dombrick60DはDvorak配列志向の45%キーボードDombrick45にDellのノー�
 - モビロンバンドとシリコンマットによるマウント方式は健在だよ! • (最下段の下段以外は)一般的なキーキャップに対応
 - DellのPCが使いたくなるPCBシルクデザイン(ロゴを入れただけ)
 
+## キー配列
+![keymap-of-dombrick60d](https://github.com/dvorak55/dombrick60d/blob/master/keylayout/dombrick60d-2-3.png)
+最下段のさらに下段（？）の10キーはChoc。Chocなのでスペースキーを押す時に干渉しない、はずなんです。
+
 ## Kitに入っている部品
 1. PCB 1枚
 2. 電子部品(コンデンサ 6個、ダイオード 65個、フューズ 1個、抵抗 6個、ESDダイオード 1個、水晶振動子 1個、リセットスイッチ 1個)
