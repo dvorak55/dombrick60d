@@ -24,7 +24,7 @@ Dombrick60DはDvorak配列志向の45%キーボードDombrick45にDellのノー�
 - DellのPCが使いたくなるPCBシルクデザイン(ロゴを入れただけ)
 
 ## キー配列
-![keymap-of-dombrick60d](https://github.com/dvorak55/dombrick60d/blob/master/keylayout/dombrick60d-2-3.png)
+![keymap-of-dombrick60d](https://github.com/dvorak55/dombrick60d/blob/master/keylayout/dombrick60d-2-4.png)
 
 最下段のさらに下段（？）の10キーはChoc。Chocなのでスペースキーを押す時に干渉しない、はずなんです。
 
